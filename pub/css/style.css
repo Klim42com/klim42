@@ -4,12 +4,24 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("../images/img-3.jpg");
+    background: gray;
+    /*background-image: url("../images/img-3.jpg");
     width: 99%;
     height: 100vh;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
     color: aqua;
+}
+
+.icons {
+   width: 2em;
+    color: #ffffff;
+}
+
+.icons:hover {
+    width: 3em;
+    color: #0050c9;
+    opacity: 1;
 }
 
 input {
